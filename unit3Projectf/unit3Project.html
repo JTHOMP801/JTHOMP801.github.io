@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Image resizing</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<style>
+
+</style>
+  <body>
+<table>
+  <header> <h1>Resizing Project</h1></header>
+  <main>
+    <h2>Movies</h2>
+<picture>
+  <source width="200" height="200" srcset="Images/LooperPoster.jpg" media="(min-width: 769px)" >
+  <source width="200" height="200" srcset="Images/TenetPoster.jpg" media="(min-width: 426px)">
+  <source width="200" height="200" srcset="Images/Interstellar.jpg" media="(min-width: 321px)" >
+  <img src="Images/Interstellar.jpg" alt="Movies" width="200" height="200">
+</picture>
+<hr>
+<h2> Trees </h2>
+<picture>
+  <source width="200" height="200" srcset="Images/CherryTree.jpg" media="(min-width: 769px)" >
+  <source width="200" height="200" srcset="Images/WillowTree.jpg" media="(min-width: 426px)">
+  <source width="200" height="200" srcset="Images/OakTree.jpg" media="(min-width: 321px)" >
+  <img src="Images/OakTree.jpg" alt="Trees" width="200" height="200">
+</picture>
+<hr>
+<h2>Donuts</h2>
+<picture>
+  <source width="200" height="200" srcset="Images/FrostedDonut.jpg" media="(min-width: 769px)" >
+  <source width="200" height="200" srcset="Images/SugarDonut.jpg" media="(min-width: 426px)">
+  <source width="200" height="200" srcset="Images/GlazedDonut.jpg" media="(min-width: 321px)" >
+  <img src="Images/GlazedDonut.jpg" alt="Donuts" width="200" height="200">
+</picture>
+<hr>
+</main>
+<footer>
+  <p>© 2021 Joe Thompson</p>
+</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

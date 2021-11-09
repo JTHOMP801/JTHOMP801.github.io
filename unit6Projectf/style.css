@@ -1,0 +1,20 @@
+#Wrapper{
+  width:60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#borderimg{
+  color: white;
+  background-color:darkcyan;
+
+}
+
+ul {
+  list-style-image: url("agentsmith.png");
+}
+.boarderimage{
+ border: 10px solid transparent;
+ padding: 10px;
+ border-image: url(boarder.jpg) 30 round;
+}
